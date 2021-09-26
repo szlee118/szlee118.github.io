@@ -32,7 +32,7 @@
 .flex-direction-nav {
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: circle;
 }
 .flex-pauseplay span {
   text-transform: capitalize;

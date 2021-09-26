@@ -430,12 +430,12 @@ mark,
 
 .list-unstyled {
   padding-left: 0;
-  list-style: none;
+  list-style: circle;
 }
 
 .list-inline {
   padding-left: 0;
-  list-style: none;
+  list-style: circle;
 }
 
 .list-inline-item {
@@ -3061,7 +3061,7 @@ input[type="button"].btn-block {
   font-size: 1rem;
   color: #212529;
   text-align: left;
-  list-style: none;
+  list-style: circle;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -4074,7 +4074,7 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none;
+  list-style: circle;
 }
 
 .nav-link {
@@ -4207,7 +4207,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none;
+  list-style: circle;
 }
 
 .navbar-nav .nav-link {
@@ -4850,7 +4850,7 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   padding: 0.75rem 1rem;
   margin-bottom: 1rem;
-  list-style: none;
+  list-style: circle;
   background-color: #e9ecef;
   border-radius: 0.25rem;
 }
@@ -4882,7 +4882,7 @@ input[type="button"].btn-block {
   display: -ms-flexbox;
   display: flex;
   padding-left: 0;
-  list-style: none;
+  list-style: circle;
   border-radius: 0.25rem;
 }
 
@@ -6245,7 +6245,7 @@ a.close.disabled {
   padding-left: 0;
   margin-right: 15%;
   margin-left: 15%;
-  list-style: none;
+  list-style: circle;
 }
 
 .carousel-indicators li {
