@@ -66,7 +66,7 @@
     });
 
     $(this).on("change", filter);
-    filter();
+    //filter();
   });
 
   lightbox.option({
