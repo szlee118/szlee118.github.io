@@ -53,6 +53,7 @@
     var $filterCheckboxes = $('input[type="radio"]', this);
 
     var filter = function() {
+	  //$isotope.isotope({ filter: '.nthu-life' });
       var type = $filterCheckboxes.filter(":checked").data("type") || "*";
       if (type !== "*") {
         type = '[data-type="' + type + '"]';
@@ -64,7 +65,7 @@
       itemSelector: ".isotope-item",
       layoutMode: "masonry"
     });
-
+	$isotope.isotope({filter:'[data-type="' + 'nthu-life' + '"]'})
     $(this).on("change", filter);
     //filter();
   });
