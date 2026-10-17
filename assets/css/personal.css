@@ -118,3 +118,9 @@ footer { border-top: 1px solid var(--line); padding-block: 24px; display: flex; 
 @keyframes map-enter { from { opacity: 0; transform: translateX(12px); } to { opacity: 1; transform: translateX(0); } }
 @media (prefers-reduced-motion: reduce) { #map-us:checked ~ .us-panel, #map-world:checked ~ .world-panel { animation: none; } }
 @media (max-width: 560px) { .map-tab { padding-inline: 16px; } }
+
+/* A travel photograph gives the maps a personal introduction. */
+.places-heading { display: grid; grid-template-columns: 1fr 1.2fr; align-items: center; gap: 48px; }
+.travel-photo { margin: 0; }
+.travel-photo img { display: block; width: 100%; height: auto; border-radius: 12px; }
+@media (max-width: 800px) { .places-heading { grid-template-columns: 1fr; gap: 24px; } }
