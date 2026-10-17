@@ -6,7 +6,7 @@ A simple English-language personal homepage, hosted on GitHub Pages.
 
 - `index.html`: introduction, about section, journal index, Now section, and contact links.
 - `assets/css/personal.css`: responsive layout, colors, and typography.
-- `assets/images/author-image.jpg`: profile photo.
+- `assets/images/leon-lake.jpg`: homepage landscape portrait, exported as JPEG without original photo metadata.
 
 The homepage uses plain HTML and CSS, with no build step or JavaScript dependencies.
 The first journal entry is in `journal/a-more-personal-space.html`. New entries can use the same HTML structure and shared stylesheet; add a link and summary to the homepage. The first entry is drafted copy for review before publication.
